@@ -12,7 +12,7 @@ html {
 
 body {
   background: rgb(14,29,71);
-  background: linear-gradient(180deg, #0a0e19 0%, #000000 100%) no-repeat;
+  background: linear-gradient(0deg, #000000 0%, #8c0013 100%) repeat;
   /*background: linear-gradient(to bottom, #000000, #FFFFFF); --#0a0e19 #e10000  height: 100%;   font-family: "Open Sans";*/
 }
 
@@ -44,9 +44,6 @@ body {
 }
 
 .round{
-  border-radius: 100px; /* Радиус скругления */
-  border: 3px solid #a10000; /* Параметры рамки */
-  box-shadow: 0 0 7px #910000; /* Параметры тени */
 }
 
 @-webkit-keyframes myfade {

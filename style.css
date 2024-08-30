@@ -1,0 +1,193 @@
+
+.al-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.al-bot {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.al-bot-rt {
+    position: absolute;
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+.al-bot-lt {
+    position: absolute;
+    text-align: left;
+    bottom: 0;
+    left: 0;
+    transform: translate(0, -50%);
+}
+
+.menu-top {
+    margin-top: 100px;
+}
+
+.menu-top div img {
+    width: 128px;
+    height: 128px;
+    padding: 10px;
+    border-radius: 100%; /* Радиус скругления */
+    background-color: #FFF;
+    box-shadow: 0 0 40px #000; /* Параметры тени */
+}
+
+.menu-top:hover div img {
+    background-color: #CCC;
+}
+
+.menu-lt {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    margin-left: 20px;
+}
+
+.menu-lt div {
+    margin: 20px 0;
+}
+
+.menu-rt {
+    margin-right: 20px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+.menu-rt div {
+    margin: 20px 0;
+}
+
+.center-header {
+    font-size: 42pt;
+    color: #FFF;
+    text-shadow: 6px 6px 24px #000000;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+.box {
+    width: 100%;
+    white-space: nowrap
+}
+
+.box div {
+    display: inline-block;
+}
+
+.round{
+    border-radius: 100%; /* Радиус скругления */
+    border: 3px solid #000000; /* Параметры рамки */
+    box-shadow: 0 0 7px #4f4f4f; /* Параметры тени */
+}
+
+
+.imgButton a img {
+    width: 96px;
+    height: 96px;
+    border-radius: 100%; /* Радиус скругления */
+    border: 3px solid #000000; /* Параметры рамки */
+}
+
+.imgButton:hover a img {
+    border: 3px solid #ff012a; /* Параметры рамки */
+    box-shadow: 0 0 20px #000; /* Параметры тени */
+}
+
+.imgButton:active a img {
+    border: 3px solid #ff012a; /* Параметры рамки */
+    box-shadow: 0 0 20px #000; /* Параметры тени */
+}
+
+.imgButtonCentral a img {
+    border-radius: 100%; /* Радиус скругления */
+    background-color: #ff012a;
+    box-shadow: 0 0 20px #000; /* Параметры тени */
+}
+.imgButtonCentral:hover a img {
+    border: 3px solid #ff012a; /* Параметры рамки */
+    background-color: #dedede;
+    box-shadow: 0 0 20px #000; /* Параметры тени */
+}
+
+.imgButtonCentral:active a img {
+    border: 3px solid #86001c; /* Параметры рамки */
+    background-color: #a1a1a1;
+}
+
+.imgCentral {
+    width: 560px;
+    height: 560px;
+}
+
+.imgCentralCh2 {
+    width: 600px;
+    height: 600px;
+}
+
+.imgCentralNote {
+    width: 600px;
+    height: 600px;
+    animation: 3s linear infinite upDownMove;
+}
+
+.imgCentralSquare {
+    width: 560px;
+    height: 560px;
+    animation: 14s linear infinite rotate;
+}
+
+@keyframes upDownMove {
+    from {
+        margin-bottom: 0;
+    }
+
+    10% {
+        margin-bottom: 3%;
+    }
+
+    25% {
+        margin-bottom: 8%;
+    }
+
+    50% {
+        margin-bottom: 15%;
+    }
+
+    75% {
+        margin-bottom: 8%;
+    }
+
+    90% {
+        margin-bottom: 3%;
+    }
+
+    to {
+        margin-bottom: 0;
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
